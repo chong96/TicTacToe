@@ -89,8 +89,9 @@
         android:checked="false"
         android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
         android:text="Eyes"
-        tools:layout_editor_absoluteX="283dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/cbEyes1" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/cbEyes1"
+        android:layout_marginRight="15dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <CheckBox
         android:id="@+id/cbTeeth2"
@@ -110,8 +111,9 @@
         android:text="Antennae"
         android:button="@null"
         android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
-        tools:layout_editor_absoluteX="253dp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/cbAntennae1" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/cbAntennae1"
+        android:layout_marginRight="15dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <CheckBox
         android:id="@+id/cbHead2"
